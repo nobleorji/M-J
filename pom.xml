@@ -17,7 +17,7 @@
  specific language governing permissions and limitations
  under the License.
 -->
-<repository xmlns="http://maven.apache.org/POM/4.0.0"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
@@ -179,8 +179,8 @@
 
     </dependencies>
  
-    </repository>
+    </project>
          <id>maven2</id>
          <url>http://maven.apache.org/POM/4.0.0
-   </repository>
+   </project>
 </project>
