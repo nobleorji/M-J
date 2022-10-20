@@ -39,23 +39,16 @@
         <finalName>webappprinogroup</finalName>
         <plugins>
             <plugin>
-                <!-- Additional plugins here-->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
-				<configuration>
-					<!-- Configuration needed to avoid build errors-->
-					<compilerArgs>
-						<args>-parameters</args>
-					</compilerArgs>
-					<source>1.8</source>
-					<target>1.8</target>
-					<!-- Configuration needed to avoid build errors-->
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
+                <!--This plugin allows to run the example using mvn jetty:run -->
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>${maven.jetty.plugin.version}</version>
+                <configuration>
+                    <scanIntervalSeconds>10</scanIntervalSeconds>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
     
     <profiles>
         <profile>
