@@ -44,6 +44,8 @@
                 <artifactId>maven-jetty-plugin</artifactId>
                 <version>${maven.jetty.plugin.version}</version>
                 <configuration>
+                     <source>1.7</source>
+                     <target>1.7</target>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                 </configuration>
             </plugin>
