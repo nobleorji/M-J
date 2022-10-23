@@ -1,5 +1,5 @@
 #Docker file to pull base image
-FROM JENKINS
+FROM jenkins
 #Author
 MAINTAINER noble-orji
 
