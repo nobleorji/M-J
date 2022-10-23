@@ -1,6 +1,5 @@
 #Docker file to pull base image
-FROM:tomcat
-
+FORM: tomcat
 #Author
 MAINTAINER: noble-orji
 
