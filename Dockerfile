@@ -4,4 +4,4 @@ FROM tomcat
 MAINTAINER noble-orji
 
 #copy war to tomcat image
-COPY **/target/webappnoblemovers.war /usr/local/tomcat/webapp
+COPY ./target/webappnoblemovers.war /usr/local/tomcat/webapp
